@@ -1,0 +1,46 @@
+{% extends 'basic.html' %}
+{% block title %} About {% endblock title %}
+{% block body %}
+{% load static %}
+ <!-- ======= About Section ======= -->
+ <section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Hello my name is dhananjay prajapati. I completed my BTech from Bundelkhand institute of Engineering and technology from 2019-2023. I  have knowledge c++, python, Machine Learning, Data structure and algorithm, HTML, CSS, Javascript (basic), bootstrap, and Django.
+          I have solved more the 150+ problems on leetcode and 150+ on gfg. currently, I am searching for job opportunities</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src={% static "assets/img/profile.jpg" %} class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Software Developer &amp; Full Stack Web Developer.</h3>
+  
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Date Of Birth:</strong> <span>31 oct 2001</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn</strong> <span>https://www.linkedin.com/in/
+                  dhananjay-prajapati-a715981b2/</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+917317225240</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chandauli Uttar Pradesh India</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Technology</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>dhananjay17728@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+{% endblock body %}

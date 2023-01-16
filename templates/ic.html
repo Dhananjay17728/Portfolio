@@ -1,0 +1,9 @@
+{% extends 'basic.html' %}
+{% block title %} Project {% endblock title %}
+{% block body %}
+{% load static %} 
+<h1> Mini Project </h1>
+<h2> This is short and efficient description</h2>
+<embed src={% static 'ic.pdf' %} height="1080px"
+width="100%"/>
+{% endblock body %}

@@ -12,4 +12,5 @@ urlpatterns = [
     path("ccc",views.ccc,name="ccc"),
     path("mrs",views.mrs,name="mrs"),
     path("weather",views.weather,name="weather"),
+    path("shopcart",views.shopcart,name="shopcart")
 ]

@@ -31,6 +31,8 @@ def mrs(request):
     return render(request,"mrs.html")
 def weather(request):
     return render(request,"weather.html")
+def shopcart(request):
+    return render(request,"shopcart.html")
 
 
 
